@@ -6,4 +6,10 @@ module.exports = {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
   },
+  devServer: {
+    contentBase: './dist',
+    compress: true, 
+     },
+  devtool: 'source-map',
+  
 };
